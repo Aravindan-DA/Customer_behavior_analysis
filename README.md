@@ -35,30 +35,43 @@ To uncover customer behavior patterns, the following queries were executed in SQ
 
 ---
 
-## 📊 Executive Summary & Key Dashboard Metrics
-* **Total Sales:** $1.79M
-* **Total Gross Profit:** $588.35K
-* **Profit Margin:** 32.84%
-* **Total Orders:** 1,000
-* **Total Units Sold:** 6,490
+# 🛒 Customer Behavior Analysis & Interactive Dashboard
+
+## 📌 Project Overview
+This project presents an interactive **Power BI Dashboard** designed to analyze customer purchasing behavior, category-wise sales performance, subscription adoption rates, and demographic trends. The objective is to extract actionable insights to optimize marketing campaigns, improve customer engagement, and boost revenue.
+
+---
+
+## 📊 Executive Summary & Key Metrics (KPIs)
+* **Total Customers:** 3.9K
+* **Average Purchase Amount:** $59.76
+* **Average Review Rating:** 3.75 / 5
 
 ---
 
 ## 🔍 Key Insights & Business Recommendations
 
-### 1. Product & Category Performance
-* **Insight:** **Electronics** is the primary revenue driver, generating **$1,047K** (over 58% of total revenue)[cite: 2]. Top products include Headphones ($254.29K) and Laptops ($235.2K)
-* **Action:** Ensure continuous stock availability for high-demand tech products and introduce cross-selling strategies for lower-performing categories like Books ($52K)
+### 1. Category Performance
+* **Insight:** **Clothing** is the primary revenue generator ($104K revenue, 3,403K sales) followed by **Accessories** ($74K revenue, 2,412K sales). Footwear and Outerwear contribute lower sales.
+* **Action:** Maintain robust inventory for Clothing and Accessories while deploying targeted discounts and bundling strategies for Footwear and Outerwear to lift sales
 
-### 2. Monthly Trend & Platform Channels
-* **Insight:** Sales exhibited a downward trend from **$174.09K in Sep 2026** to **$98.87K in Apr 2026**. **Shopify** emerged as the top platform with **$627K** in revenue.
-* **Action:** Launch targeted re-engagement email campaigns during slow sales months (March–April) and increase marketing focus on Shopify.
+### 2. Subscription Status Analysis
+* **Insight:** A significant majority—**73% of customers—do not have a subscription**, with only **27% subscribed**[cite: 6].
+* **Action:** Launch targeted email campaigns, exclusive discounts, or free-shipping offers for non-subscribers to convert them into loyal subscribed members.
 
-### 3. Geographic & Shipping Performance
-* **Insight:** **Japan ($222.58K)**, **France ($204.66K)**, and **India ($198.07K)** are top revenue-generating markets. **Express** and **Economy** are the preferred shipping modes.
-* **Action:** Establish localized fulfillment options in key countries to optimize shipping costs and delivery times.
+### 3. Demographic Insights (Age Groups)
+* **Insight:** **Young Adults** are the top-performing demographic, contributing the highest sales (1.03K) and revenue ($62K), closely followed by Middle-Aged customers.
+* **Action:** Tailor digital marketing and trending fashion promotions toward Young Adults via social channels to maximize conversion rates.
 
 ---
+
+## 🛠️ Tools & Technologies Used
+* **Business Intelligence:** Power BI Desktop
+* **Data Visualization:** Interactive Slicers (Gender, Subscription Status, Shipping Type, Category)
+* **Data Modeling:** DAX Measures & Data Transformation
+
+---
+
 
 ## 📂 Project Repository Structure
 ```text
